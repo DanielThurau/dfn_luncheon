@@ -1,4 +1,5 @@
 [workspace]
 members = [
-    "src/dfn_luncheon_backend",
+    "src/luncheon/impl",
+    "src/luncheon/interface",
 ]

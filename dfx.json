@@ -1,19 +1,10 @@
 {
   "version": 1,
   "canisters": {
-    "dfn_luncheon_backend": {
+    "luncheon": {
       "type": "rust",
-      "package": "dfn_luncheon_backend",
-      "candid": "src/dfn_luncheon_backend/dfn_luncheon_backend.did"
-    },
-    "dfn_luncheon_frontend": {
-      "type": "assets",
-      "source": [
-        "src/dfn_luncheon_frontend/assets"
-      ],
-      "dependencies": [
-        "dfn_luncheon_backend"
-      ]
+      "package": "",
+      "candid": "src/luncheon/impl/luncheon.did"
     }
   },
   "defaults": {

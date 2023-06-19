@@ -1,0 +1,15 @@
+[package]
+name = "luncheon-interface"
+version = "0.1.0"
+edition = "2021"
+description = "DFINITY San Francisco Lunch Application"
+authors = ["Daniel Thurau <daniel.n.thurau@gmail.com>"]
+readme = "README.md"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+candid = "0.8"
+ic-cdk = "0.8.1"
+ic-cdk-macros = "0.6"
