@@ -3,14 +3,9 @@
   "canisters": {
     "luncheon": {
       "type": "rust",
-      "package": "",
-      "candid": "src/luncheon/impl/luncheon.did"
-    }
-  },
-  "defaults": {
-    "build": {
-      "packtool": "",
-      "args": ""
+      "package": "luncheon",
+      "wasm": "luncheon-canister.wasm",
+      "candid": "src/luncheon/impl/canister/luncheon.did"
     }
   },
   "output_env_file": ".env"

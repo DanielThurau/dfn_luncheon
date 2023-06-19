@@ -6,8 +6,8 @@ description = "DFINITY San Francisco Lunch Application"
 authors = ["Daniel Thurau <daniel.n.thurau@gmail.com>"]
 readme = "README.md"
 
-[bin]
-name = "luncheon-canister"
+[[bin]]
+name = "luncheon"
 path = "canister/canister.rs"
 
 [lib]
@@ -17,7 +17,12 @@ path = "src/lib.rs"
 candid = "0.8"
 ic-canister-log = "0.1.0"
 ic-canister-serve = "0.1.0"
-ic-cdk = "0.8.1"
+ic-cdk = "0.7"
 ic-cdk-macros = "0.6"
 ic-cdk-timers = "0.2.0"
 ic-metrics-encoder = "1.1"
+luncheon-interface = { path="../interface" }
+maplit = "1.0.2"
+serde = "1.0.164"
+time = "0.3.22"
+url = "2.4.0"
